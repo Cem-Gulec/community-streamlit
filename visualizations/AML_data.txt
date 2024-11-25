@@ -1,0 +1,65 @@
+mean_interaction_weight	number_of_interactions	interaction_ID	interaction_type
+0.0315010332387129	837	Mono to Mono	among immune cells
+0.0313246724160057	617	Gran to Mono	among immune cells
+0.00935324151882851	579	T to Mono	among immune cells
+0.00737098676750089	410	NK to Mono	among immune cells
+0.00483775830872912	445	B to Mono	among immune cells
+0.00946120301928273	502	HSPC to Mono	engages HSPC
+0.00118820493083314	188	Ery to Mono	engages Ery
+0.0109626008373933	556	DC to Mono	among immune cells
+0.0304028179335234	632	Mono to Gran	among immune cells
+0.0429626402236425	472	Gran to Gran	among immune cells
+0.0101937319130661	457	T to Gran	among immune cells
+0.00702671242528949	314	NK to Gran	among immune cells
+0.0152729901876712	362	B to Gran	among immune cells
+0.0235017370809688	411	HSPC to Gran	engages HSPC
+0.00494641241377926	271	Ery to Gran	engages Ery
+0.0169620540211526	437	DC to Gran	among immune cells
+0.0087143950158806	579	Mono to T	among immune cells
+0.0130680538062597	442	Gran to T	among immune cells
+0.0682239821139123	498	T to T	among immune cells
+0.0578822774579802	347	NK to T	among immune cells
+0.0185023548622121	389	B to T	among immune cells
+0.023162394486716	422	HSPC to T	engages HSPC
+0.00788761712545302	263	Ery to T	engages Ery
+0.0258610329845674	454	DC to T	among immune cells
+0.00702929177188812	364	Mono to NK	among immune cells
+0.00884239248759242	281	Gran to NK	among immune cells
+0.0572949091918221	295	T to NK	among immune cells
+0.0555532190017874	224	NK to NK	among immune cells
+0.011993933846479	225	B to NK	among immune cells
+0.014099909944595	253	HSPC to NK	engages HSPC
+0.00237413882099974	92	Ery to NK	engages Ery
+0.0234274308714583	283	DC to NK	among immune cells
+0.00401482784075103	341	Mono to B	among immune cells
+0.0155407142087671	276	Gran to B	among immune cells
+0.0171094714665692	293	T to B	among immune cells
+0.0112488491840217	194	NK to B	among immune cells
+0.0164032171730443	225	B to B	among immune cells
+0.0216435415606242	256	HSPC to B	engages HSPC
+0.0072473795833662	166	Ery to B	engages Ery
+0.00618923831812658	266	DC to B	among immune cells
+0.00930664421015716	459	Mono to HSPC	engages HSPC
+0.0233594125605729	359	Gran to HSPC	engages HSPC
+0.0218193022859876	405	T to HSPC	engages HSPC
+0.0140176435171823	254	NK to HSPC	engages HSPC
+0.0210551745818863	308	B to HSPC	engages HSPC
+0.0387936368906802	409	HSPC to HSPC	engages HSPC
+0.0178897361784423	238	Ery to HSPC	engages Ery
+0.0104917827437747	322	DC to HSPC	engages HSPC
+0.00116863375568301	136	Mono to Ery	engages Ery
+0.00524687628247444	209	Gran to Ery	engages Ery
+0.00708880901153848	210	T to Ery	engages Ery
+0.00272821330687676	76	NK to Ery	engages Ery
+0.00698150856511313	186	B to Ery	engages Ery
+0.0185663338620048	219	HSPC to Ery	engages Ery
+0.0121418573118736	165	Ery to Ery	engages Ery
+0.000886798532085079	123	DC to Ery	engages Ery
+0.0101520188393864	547	Mono to DC	among immune cells
+0.0156248212885094	405	Gran to DC	among immune cells
+0.0228386853935655	421	T to DC	among immune cells
+0.0207941514788413	296	NK to DC	among immune cells
+0.00563973217452771	313	B to DC	among immune cells
+0.00891241033383291	338	HSPC to DC	engages HSPC
+0.000572476409552812	132	Ery to DC	engages Ery
+0.019030150251307	416	DC to DC	among immune cells

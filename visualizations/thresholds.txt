@@ -1,0 +1,2 @@
+threshold_expr	threshold_nr_active_cells	threshold_celltype_size	threshold_log10_cum_weight	threshold_frac_samples_per_condition	threshold_log10_meanexpr_per_condition	threshold_fdr	threshold_log2FC	threshold_log2FC_components
+0.1	6	6	0.01	0.6	0.02	0.1	1	1
