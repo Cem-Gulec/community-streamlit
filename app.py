@@ -730,7 +730,7 @@ def load_default_files():
     if all(file.exists() for file in [default_counts_file, default_cell_annot_file, default_sample_annot_file, default_database_file]):
         st.session_state.files_uploaded = True
     else:
-        st.warning("Not all default files were found. Please check the input_data directory.")
+        st.warning("Not all test files were found. Please check the input_data directory.")
 
 
 def run_r_script(filename):
@@ -834,7 +834,7 @@ def perform_analysis():
             with col1:
                 submit_button = st.form_submit_button("Upload Files")
             with col2:
-                default_files_button = st.form_submit_button("Default Files")
+                default_files_button = st.form_submit_button("Test Files")
 
             if submit_button:
                 if st.session_state.cell_annot_uploaded and counts_file:
@@ -860,7 +860,7 @@ def perform_analysis():
             if default_files_button:    
                 load_default_files()
                 st.session_state.cell_annot_uploaded = True
-                st.success("Default files loaded successfully!")
+                st.success("Test files loaded successfully!")
                 time.sleep(3)
                 st.session_state.page = "Perform Analysis"
                 st.experimental_rerun()
