@@ -737,6 +737,8 @@ def run_r_script(filename):
     try:
         subprocess.run(["Rscript", filename], check=True)
         return True
+    except FileNotFoundError:
+        st.error("R file not found. Please ensure R is installed and available in your system PATH.")
     except subprocess.CalledProcessError as e:
         st.error(f"Error running R script: {e}")
         return False
