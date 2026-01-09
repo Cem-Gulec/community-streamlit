@@ -44,7 +44,30 @@ You also need R installed with the following R packages:
 * `tidyverse`
 * `gridExtra`
 
-## ▶️ Run the App
+## 🧩 Deploy Your Own Data
+
+You can use your own single-cell RNA-seq data with the app by following these steps:
+
+### 1. Prepare Your Data
+
+Place your custom files in the `input_data/` directory. The expected input files include:
+
+- `toy_counts.csv` – Gene expression count matrix (genes × cells)
+- `toy_cell_annot.csv` – Cell-level annotations (with cell type or cluster info)
+
+Make sure your data follows the structure and formatting of the demo datasets provided in the same folder.
+
+### 2. Customize Ligand-Receptor Database *(Optional)*
+
+Optionally, you can edit or replace the file:
+
+- `input_data/ready_database.txt` – The ligand-receptor interaction database used by the app.
+
+This allows you to use a custom set of interactions relevant to your study.
+
+### 3. Run the App
+
+Once your files are ready, launch the app:
 
 ```bash
 streamlit run app.py
